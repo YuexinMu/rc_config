@@ -5,6 +5,7 @@ rc_hw:
   loop_frequency: 1000
   cycle_time_error_threshold: 0.001
   thread_priority: 95
+  # sudo ip link set can0 up type can bitrate 1000000
   # Configurations of the actuators
   actuators:
     left_front_wheel_motor:
@@ -49,7 +50,7 @@ rc_hw:
       lp_cutoff_frequency: 60
 
 
-  actions:
-    location_action: # action names
-      serial_port: "/dev/ttyUSB0"
+#  actions:
+#    location_action: # action names
+#      serial_port: "/dev/ttyUSB0"
 

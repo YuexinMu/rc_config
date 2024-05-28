@@ -2,9 +2,9 @@ controllers:
   joint_state_controller:
     type: joint_state_controller/JointStateController
     publish_rate: 100
-  robot_state_controller:
-    type: robot_state_controller/RobotStateController
-    publish_rate: 100
+  #  rc_robot_state_publisher:
+  #    type: rc_robot_state_publisher/RcRobotStatePublisher
+  #    publish_rate: 100
 
   chassis_controller:
     # ChassisBase
